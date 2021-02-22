@@ -9,7 +9,7 @@ import cors from "cors";
 //app config
 const app = express();
 dotenv.config();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 const pusher = new Pusher({
   appId: process.env.APP_ID,
